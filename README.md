@@ -5,9 +5,9 @@ O **JavaWebsocketSSL** é um projeto exemplo que mostra como implementar um serv
 
 ## Tecnologias utilizadas
 * Java 11
-* Apache Maven 3.6.3
-* TooTallNate/Java-WebSocket 1.5.2
-* SLF4J 1.7.30
+* Apache Maven
+* TooTallNate/Java-WebSocket
+* SLF4J
 * IDE Eclipse
 
 ## Certificado auto-assinado
