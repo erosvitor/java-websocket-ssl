@@ -1,7 +1,7 @@
 # JavaWebsocketSSL
 
 ## Descrição
-O **JavaWebsocketSSL** é um projeto exemplo que mostra como implementar um servidor websocket SSL com certificado auto-assinado.
+Projeto exemplo que mostra como implementar um servidor websocket SSL com certificado auto-assinado.
 
 ## Tecnologias utilizadas
 * Java 11
