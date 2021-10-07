@@ -1,16 +1,27 @@
-# JavaWebsocketSSL
+## Sobre
+O projeto mostra como implementar um servidor websocket SSL com certificado auto-assinado.
 
-## Descrição
-Projeto exemplo que mostra como implementar um servidor websocket SSL com certificado auto-assinado.
+## Tecnologias
+As seguintes ferramentas foram utilizadas neste projeto:
 
-## Tecnologias utilizadas
-* Java 11
-* Apache Maven
-* TooTallNate/Java-WebSocket
-* SLF4J
-* IDE Eclipse
+* [Java Oracle](https://www.oracle.com/java/)
+* [Apache Maven](https://maven.apache.org/)
+* [TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
+* [IDE Eclipse](https://www.eclipse.org/)
 
-## Certificado auto-assinado
+## Requisitos
+Antes de iniciar você precisar ter o Git, JDK Oracle and Eclipse IDE instalados.
+
+## Iniciando o projeto
+
+### Clonando o projeto
+```
+$ git clone https://github.com/erosvitor/java-websocket-ssl.git
+
+$ cd java-websocket-ssl
+```
+
+### Gerando certificado auto-assinado
 Para gerar um certificado auto-assinado para o servidor Websocket SSL, deve-se utilizar a ferramenta 'keytool' presente no pacote JDK.
 
 *Sintaxe da ferramenta 'keytool'*
@@ -42,11 +53,11 @@ O comando acima gera um arquivo (certificado) com o nome 'javawsssl.jks' no loca
 
 Após ter gerado o certificado, o mesmo deve ser armazenado no diretório **/opt/websocketssl**. Caso deseje armazená-lo em outro local, deve-se ajustar a classe **SSLCertificate.java**.
 
-## Documentação
+### Testando o projeto
+**Passo 1:** Iniciar a aplicação usando o Eclipse IDE
 
-### Diagrama de classes
-
-![](references/diagrama-classes.png) 
+## Licença
+Este projeto está sob licença do MIT. Para mais detalhes, ver o arquivo LICENSE.
 
 ## Histórico de lançamentos
 
